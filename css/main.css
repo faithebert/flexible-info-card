@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Open Sans", serif;
+  font-family: "Open Sans", 'sans serif';
   background-color: #ccc;
 }
 
@@ -31,7 +31,6 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: .5rem 1rem .6rem;
 }
 
 a {
