@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Open Sans, serif;
 }
 
 *, *::before, *::after {
@@ -7,8 +9,11 @@ html {
 }
 
 img {
-  width: 100%;
-  display: block;
+  width: 5rem;
+}
+
+h2 {
+  text-align: center;
 }
 
 ul {
@@ -20,5 +25,5 @@ ul {
 
 ul li {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
