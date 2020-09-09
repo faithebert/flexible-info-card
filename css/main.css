@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: Open Sans, serif;
+  font-family: "Open Sans", serif;
   background-color: #ccc;
 }
 
@@ -21,6 +21,10 @@ h2 {
 ul {
   display: flex;
   flex-direction: column;
+}
+
+body {
+  margin: 0;
 }
 
 ul li {
